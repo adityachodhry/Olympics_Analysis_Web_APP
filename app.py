@@ -1,11 +1,10 @@
 import streamlit as st
 import pandas as pd
 import preprocessor, helper
-import plotly.express as px
+import plotly.express as px  
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
-
 
 df = pd.read_csv('athlete_events1.csv')
 region_df = pd.read_csv('noc_regions1.csv')
